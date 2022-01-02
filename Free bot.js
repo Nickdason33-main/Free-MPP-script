@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Free Bot
-// @namespace    Author
+// @name         Spammmer Key2
+// @namespace    Dipper. main.
 // @version      0.1.0
-// @description  MPP Bot.
+// @description  Plays MIDI files!
 // @author       Wolfy.
 // @include      /^https?://www\.multiplayerpiano\.com*/
 // @include      /^https?://multiplayerpiano\.(com|net)*/
@@ -31,7 +31,7 @@ var isOwner = MPP.client.isOwner();
 
 
 MPP.client.on('a', function(msg) {
-  if (msg.a === ';help') { //if (msg.a === 'Prefix Here') { 
+  if (msg.a === ';help') { //if (msg.a === 'Prefix Here') {
     MPP.chat.send("Help: Hello here are my commands: | ;test | ;ps (Piano Spam) | ;discord ");
   }
 
@@ -50,6 +50,10 @@ MPP.client.on('a', function(msg) {
 
     if (msg.a === ';discord') {
     MPP.chat.send('My discord: Slime Wolf#6454');
+  }
+
+  if (msg.a === ';js') {
+    MPP.chat.send('Here is my bot code: https://github.com/nickdason33-lang/Free-MPP-script/blob/main/Free%20bot.js');
   }
 
 //Hello, Please contact my discord for more support on my bot!^^
