@@ -31,7 +31,7 @@ var isOwner = MPP.client.isOwner();
 
 
 MPP.client.on('a', function(msg) {
-  if (msg.a === ';help') {
+  if (msg.a === ';help') { //if (msg.a === 'Prefix Here') { 
     MPP.chat.send("Help: Hello here are my commands: | ;test | ;ps (Piano Spam) | ;discord ");
   }
 
