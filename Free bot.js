@@ -60,7 +60,7 @@ MPP.client.on('a', function(msg) {
 
     if (msg.a === ';ps') {
 for(var i = 8; i--;) setTimeout(()=>Object.keys(MPP.piano.keys).forEach((a, b) => setTimeout(MPP.press, b * 10, a, 2)), i * 10);
-MPP.chat.send('b-sp');
+MPP.chat.send(';ps');
 
   }
 
