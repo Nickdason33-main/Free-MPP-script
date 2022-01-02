@@ -3,7 +3,8 @@ This is a tampermonkey script.
 
 Greetings this script only works on:
 ---
-https://mppclone.com
+https://mppclone.com 
+
 https://multiplayerpiano.com
 
 # Errors or bugs.
